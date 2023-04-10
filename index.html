@@ -18,7 +18,9 @@
     <style>
       body {
         background-color: rgb(216, 241, 250);
-        width: minmax(200px, 400px);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        /* display: grid; */
+        margin: 10px auto;
       }
       .container {
         padding: 20px;
@@ -48,6 +50,14 @@
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
+      }
+
+      @media (max-width: 400px){
+
+        .attribution {
+          width: 100%;
+          margin: 5px auto;
+        }
       }
 
     </style>
